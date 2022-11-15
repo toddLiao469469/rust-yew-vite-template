@@ -1,0 +1,23 @@
+{
+  "name": "rsw-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "rsw watch & vite",
+    "build": "rsw build && npm run fe:build",
+    "rsw": "rsw",
+    "fe:build": "tsc && vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vite-plugin-rsw": "^2.0.11",
+    "wasm-pack": "^0.10.3"
+  }
+}
